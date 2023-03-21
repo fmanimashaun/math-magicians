@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/fmanimashaun-green)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Math magicians
 
-## Available Scripts
+## 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 Overview](#about-project)
+  - [Project Objectives](#project-objectives)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📖 Overview <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
-### `npm test`
+- Make simple calculations.
+- Read a random math-related quote.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Project Objectives <a name="project-objectives"></a>
 
-### `npm run build`
+- [x] set up the environment and tools needed to develop a React application
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Built With <a name="built-with"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run eject`
+- [react](https://react.dev/)
+- [npm](https://www.npmjs.com/)
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com)
+- [Stylelint](https://stylelint.io/)
+- [ESLint](https://eslint.org/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Key Features <a name="key-features"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [x] Setting up a react app.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Learn More
+> [Live Demo Link](https://fmanimashaun.github.io/math-magicians/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="center">
+  <img width="500" src="#">
+</P>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Code Splitting
+- [Optional] Install git bash to your machine to enable you to clone this repo.
+- install Visual Studio to be able to host a local live version.
+- Install a browser to view the local live version.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To get a local copy up and running follow these simple example steps.
+### Setup <a name="setup"></a>
 
-### Analyzing the Bundle Size
+- Open your GitHub account the repository's [link](https://github.com/fmanimashaun/math-magicians)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Prerequisites <a name="prerequisites"></a>
 
-### Making a Progressive Web App
+- Internet connection
+- A github account
+### Install <a name="install"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- copy the repo's link and clone it by writing `git clone https://github.com/fmanimashaun/math-magicians.git` on your git bash terminal.
+- `npm install` to install the dependencies.
 
-### Advanced Configuration
+### Run tests <a name="run-tests"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- You can check for errors by running linter tests found in the github flows.
 
-### Deployment
+### Deployment <a name="deployment"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- run `npm run start` to run it locally.
 
-### `npm run build` fails to minify
+## Authors <a name="authors"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Engr. Animashaun Fisayo**
+
+- [GitHub](https://github.com/fmanimashaun)
+- [Twitter](https://twitter.com/fmanimashaun)
+- [LinkedIn](https://www.linkedin.com/in/fmanimashaun/)
+- [Website](https://fmanimashaun.com)
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] Add various page components.
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## ⭐️ Show your suppor <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+## 🙏 Acknowledgements <a name="acknowledgements"></a>
+
+- [Microverse](https://www.microverse.org/)
+
+## 📝 License <a name="license"></a>
+This project is [MIT](./LICENSE) licensed.

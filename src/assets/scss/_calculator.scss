@@ -1,3 +1,5 @@
+/* stylelint-disable at-rule-no-unknown */
+/* stylelint-disable csstree/validator */
 @use './_colors.scss';
 
 .calculator {
@@ -29,14 +31,14 @@
     gap: 2px;
 
     &-btn {
-      flex-basis: calc((100% - 6px)/4);
+      flex-basis: calc((100% - 6px) / 4);
       padding: 0;
       border-radius: 0;
       font-size: 1.2rem;
       border: none;
 
       &.zero-btn {
-        flex-basis: calc((100% - 6px)/2 + 2px);
+        flex-basis: calc((100% - 6px) / 2 + 2px);
       }
 
       &.operation {

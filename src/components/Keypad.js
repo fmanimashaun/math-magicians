@@ -18,7 +18,7 @@ const Keypad = () => (
     <button className="calculator__keypad-btn" type="button">2</button>
     <button className="calculator__keypad-btn" type="button">3</button>
     <button className="calculator__keypad-btn operation" type="button">+</button>
-    <button className="calculator__keypad-btn" type="button">0</button>
+    <button className="calculator__keypad-btn zero-btn" type="button">0</button>
     <button className="calculator__keypad-btn" type="button">.</button>
     <button className="calculator__keypad-btn operation" type="button">=</button>
   </div>

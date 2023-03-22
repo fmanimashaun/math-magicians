@@ -5,12 +5,12 @@
 
 .calculator {
   width: 500px;
-  border: 2px solid colors.$light-gray;
+  border: 2px solid colors.$gray;
   margin-inline: auto;
 
   &__display {
     width: 100%;
-    background-color: colors.$light-gray;
+    background-color: colors.$gray;
 
     &-input {
       background: transparent;
@@ -37,6 +37,16 @@
       border-radius: 0;
       font-size: 1.2rem;
       border: none;
+      background-color: colors.$light-gray-500;
+      cursor: pointer;
+
+      &:hover {
+        background-color: colors.$light-gray-600;
+      }
+
+      &:active {
+        background-color: colors.$light-gray-700;
+      }
 
       &.zero-btn {
         flex-basis: calc((100% - (3 * space.$keypad-gap)) / 2 + space.$keypad-gap);

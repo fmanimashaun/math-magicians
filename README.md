@@ -107,7 +107,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## ⭐️ Show your suppor <a name="support"></a>
+## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
 

@@ -1,0 +1,68 @@
+/* stylelint-disable at-rule-no-unknown */
+/* stylelint-disable csstree/validator */
+@use './_colors.scss';
+@use './space.scss';
+
+.calculator {
+  width: 500px;
+  border: 2px solid colors.$gray;
+  margin-inline: auto;
+
+  &__display {
+    width: 100%;
+    background-color: colors.$gray;
+
+    &-input {
+      background: transparent;
+      font-size: 2rem;
+      width: 100%;
+      text-align: right;
+      padding-block: 1rem;
+      outline: none;
+      border: none;
+      color: colors.$light;
+    }
+  }
+
+  &__keypad {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: space.$keypad-gap;
+
+    &-btn {
+      flex-basis: calc((100% - (3 * space.$keypad-gap)) / 4);
+      padding: 0;
+      border-radius: 0;
+      font-size: 1.2rem;
+      border: none;
+      background-color: colors.$light-gray-500;
+      cursor: pointer;
+
+      &:hover {
+        background-color: colors.$light-gray-600;
+      }
+
+      &:active {
+        background-color: colors.$light-gray-700;
+      }
+
+      &.zero-btn {
+        flex-basis: calc((100% - (3 * space.$keypad-gap)) / 2 + space.$keypad-gap);
+      }
+
+      &.operation {
+        background-color: colors.$orange-500;
+
+        &:hover {
+          background-color: colors.$orange-600;
+        }
+
+        &:active {
+          background-color: colors.$orange-700;
+        }
+      }
+    }
+  }
+}

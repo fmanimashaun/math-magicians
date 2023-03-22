@@ -1,8 +1,11 @@
 import React from 'react';
+import Display from './Display';
+import Keypad from './Keypad';
 
 const Calculator = () => (
-  <section>
-    <h2>This is a calculator</h2>
+  <section className="calculator">
+    <Display />
+    <Keypad />
   </section>
 );
 

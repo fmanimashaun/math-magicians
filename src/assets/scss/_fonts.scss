@@ -2,9 +2,9 @@
 
 /* Robaga Rounded font */
 @font-face {
-  font-family: 'Robaga Rounded';
-  src: url("../fonts/robaga_rounded/Robaga_Rounded_Regular.otf") format('TrueType');
-  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+  src: url("../fonts/Poppins/Poppins-Regular.ttf") format('TrueType');
+  font-weight: 400;
 }
 
-$primary-ff: 'Robaga Rounded', 'Arial Black', 'Arial Bold', sans-serif;
+$primary-ff:'Poppins', sans-serif;

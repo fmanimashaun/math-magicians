@@ -1,6 +1,7 @@
 /* stylelint-disable at-rule-no-unknown */
 /* stylelint-disable csstree/validator */
 @use './_colors.scss';
+@use './space.scss';
 
 .calculator {
   width: 500px;
@@ -28,28 +29,28 @@
     min-height: 400px;
     display: flex;
     flex-flow: row wrap;
-    gap: 2px;
+    gap: space.$keypad-gap;
 
     &-btn {
-      flex-basis: calc((100% - 6px) / 4);
+      flex-basis: calc((100% - (3 * space.$keypad-gap)) / 4);
       padding: 0;
       border-radius: 0;
       font-size: 1.2rem;
       border: none;
 
       &.zero-btn {
-        flex-basis: calc((100% - 6px) / 2 + 2px);
+        flex-basis: calc((100% - (3 * space.$keypad-gap)) / 2 + space.$keypad-gap);
       }
 
       &.operation {
-        background-color: colors.$orange;
+        background-color: colors.$orange-500;
 
         &:hover {
-          background-color: #b9712d;
+          background-color: colors.$orange-600;
         }
 
         &:active {
-          background-color: #864c1e;
+          background-color: colors.$orange-700;
         }
       }
     }

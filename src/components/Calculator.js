@@ -1,11 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const Calculator = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+const Calculator = () => (
+  <section>
+    <h2>This is a calculator</h2>
+  </section>
+);
 
-export default Calculator
+export default Calculator;

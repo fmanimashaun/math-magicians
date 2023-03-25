@@ -1,10 +1,18 @@
 /* import fonts */
 
-/* Robaga Rounded font */
+/* poppins font */
 @font-face {
   font-family: 'Poppins', sans-serif;
   src: url("../fonts/Poppins/Poppins-Regular.ttf") format('TrueType');
   font-weight: 400;
 }
 
+/* Robaga Rounded font */
+@font-face {
+  font-family: 'Robaga Rounded';
+  src: url("../fonts/robaga_rounded/Robaga_Rounded_Regular.otf") format('TrueType');
+  font-weight: normal;
+}
+
 $primary-ff:'Poppins', sans-serif;
+$secondary-ff:'Robaga Rounded', sans-serif;

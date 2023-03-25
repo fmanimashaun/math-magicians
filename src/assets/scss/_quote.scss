@@ -1,0 +1,19 @@
+/* stylelint-disable at-rule-no-unknown */
+/* stylelint-disable csstree/validator */
+@use './_colors.scss';
+@use './space.scss';
+@use './_fonts.scss';
+
+.quote {
+  padding-block: 2rem;
+  max-width: 700px;
+  margin-inline: auto;
+  font-family: fonts.$secondary-ff;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5;
+
+  &__author {
+    font-weight: 700;
+  }
+}

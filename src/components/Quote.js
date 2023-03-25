@@ -24,9 +24,9 @@ const Quote = () => {
     fetchQuote();
   }, [setQuote, setIsLoading]);
 
-  if (hasError) return <div>Could not get quote!</div>;
+  if (hasError) return <div className="quote__error">Could not get quote!</div>;
 
-  if (isLoading) return <div>Loading, please wait...</div>;
+  if (isLoading) return <div className="quote__loading">Loading, please wait...</div>;
 
   return (
     <div className="quote">

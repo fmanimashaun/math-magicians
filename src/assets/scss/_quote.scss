@@ -16,4 +16,12 @@
   &__author {
     font-weight: 700;
   }
+
+  &__loading,
+  &__error {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
 }

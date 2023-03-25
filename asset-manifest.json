@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/math-magicians/static/css/main.c98c1723.css",
-    "main.js": "/math-magicians/static/js/main.0c80ff3e.js",
+    "main.js": "/math-magicians/static/js/main.e581eb16.js",
     "static/media/Poppins-Regular.ttf": "/math-magicians/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
     "index.html": "/math-magicians/index.html",
     "main.c98c1723.css.map": "/math-magicians/static/css/main.c98c1723.css.map",
-    "main.0c80ff3e.js.map": "/math-magicians/static/js/main.0c80ff3e.js.map"
+    "main.e581eb16.js.map": "/math-magicians/static/js/main.e581eb16.js.map"
   },
   "entrypoints": [
     "static/css/main.c98c1723.css",
-    "static/js/main.0c80ff3e.js"
+    "static/js/main.e581eb16.js"
   ]
 }

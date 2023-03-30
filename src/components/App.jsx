@@ -1,6 +1,6 @@
 import React from 'react';
-import Calculator from './components/Calculator';
-import Quote from './components/Quote';
+import Calculator from './Calculator';
+import Quote from './Quote';
 
 const App = () => (
   <>

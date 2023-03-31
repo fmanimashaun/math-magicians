@@ -46,6 +46,9 @@
 - [GitHub](https://github.com)
 - [Stylelint](https://stylelint.io/)
 - [ESLint](https://eslint.org/)
+- [sass](https://sass-lang.com/)
+- [VSCode](https://code.visualstudio.com/)
+- [react router](https://reactrouter.com/)
 
 
 ### Key Features <a name="key-features"></a>

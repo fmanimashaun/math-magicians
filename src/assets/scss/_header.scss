@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1.5rem;
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+
+  &__logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  &__navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+    & > * {
+      padding: 0.25rem 1rem;
+
+      & a {
+        font-size: 1.2rem;
+        color: blue;
+        cursor: pointer;
+
+        &:hover,
+        &.active {
+          color: red;
+          text-decoration: none;
+        }
+      }
+    }
+
+    & > *:not(:last-child) {
+      border-inline-end: 1px solid blue;
+    }
+  }
+}

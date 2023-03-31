@@ -5,12 +5,10 @@
 @use './_fonts.scss';
 
 .quote {
-  padding-block: 2rem;
   max-width: 700px;
   margin-inline: auto;
-  font-family: fonts.$secondary-ff;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 
   &__author {
@@ -20,8 +18,7 @@
   &__loading,
   &__error {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    margin-bottom: 2rem;
   }
 }

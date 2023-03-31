@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
+import calculate from 'logic/calculate';
 import Display from './Display';
 import Keypad from './Keypad';
-import calculate from 'logic/calculate';
 
 const Calculator = () => {
   const [calcData, setCalcData] = useState({

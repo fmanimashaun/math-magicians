@@ -1,7 +1,12 @@
 import React from 'react';
 
 const Home = () => (
-  <main className="main">
+  <main
+    className="main"
+    style={{
+      marginBlock: '1.5rem auto',
+    }}
+  >
     <h2 className="main__header">Welcome to our page!</h2>
     <p className="main__content">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eos

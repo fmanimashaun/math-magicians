@@ -24,16 +24,18 @@ const Quote = () => {
     fetchQuote();
   }, [setQuote, setIsLoading]);
 
-  if (hasError) return <div className="quote__error">Could not get quote!</div>;
-
-  if (isLoading) return <div className="quote__loading">Loading, please wait...</div>;
-
   return (
     <div className="quote">
-      <p>
-        {quote.quote}
-        <span className="quote__author">{` - ${quote.author}`}</span>
-      </p>
+      {hasError && <div className="quote__error">Could not get quote!</div>}
+      {isLoading && (
+        <div className="quote__loading">Loading, please wait...</div>
+      )}
+      {!hasError && !isLoading && (
+        <p>
+          {quote.quote}
+          <span className="quote__author">{` - ${quote.author}`}</span>
+        </p>
+      )}
     </div>
   );
 };

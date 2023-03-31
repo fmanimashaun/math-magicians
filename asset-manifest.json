@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/math-magicians/static/css/main.efe1370c.css",
-    "main.js": "/math-magicians/static/js/main.ac6fc710.js",
-    "static/media/Poppins-Regular.ttf": "/math-magicians/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "static/media/Robaga_Rounded_Regular.otf": "/math-magicians/static/media/Robaga_Rounded_Regular.2613e95fa67ea4b5f5f6.otf",
-    "index.html": "/math-magicians/index.html",
-    "main.efe1370c.css.map": "/math-magicians/static/css/main.efe1370c.css.map",
-    "main.ac6fc710.js.map": "/math-magicians/static/js/main.ac6fc710.js.map"
+    "main.css": "/static/css/main.3065dcd7.css",
+    "main.js": "/static/js/main.cf0bf821.js",
+    "static/media/Robaga_Rounded_Regular.otf": "/static/media/Robaga_Rounded_Regular.2613e95fa67ea4b5f5f6.otf",
+    "index.html": "/index.html",
+    "main.3065dcd7.css.map": "/static/css/main.3065dcd7.css.map",
+    "main.cf0bf821.js.map": "/static/js/main.cf0bf821.js.map"
   },
   "entrypoints": [
-    "static/css/main.efe1370c.css",
-    "static/js/main.ac6fc710.js"
+    "static/css/main.3065dcd7.css",
+    "static/js/main.cf0bf821.js"
   ]
 }

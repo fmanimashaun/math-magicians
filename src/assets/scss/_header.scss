@@ -28,7 +28,8 @@
         color: blue;
         cursor: pointer;
 
-        &:hover {
+        &:hover,
+        &.active {
           color: red;
           text-decoration: none;
         }

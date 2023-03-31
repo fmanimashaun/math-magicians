@@ -1,5 +1,12 @@
 import React from 'react';
+import Quote from 'components/Quote';
 
-const QuotePage = () => <h1>Quote page</h1>;
+const QuotePage = () => (
+  <main className="main">
+    <div className="main__wrapper">
+      <Quote />
+    </div>
+  </main>
+);
 
 export default QuotePage;

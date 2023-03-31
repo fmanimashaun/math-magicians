@@ -57,7 +57,13 @@
 > [Live Demo Link](https://fmanimashaun.github.io/math-magicians/)
 
 <p align="center">
-  <img width="500" src="screenshot/calculator-demo.png">
+  <img width="500" src="screenshot/homepage.png">
+</P>
+<p align="center">
+  <img width="500" src="screenshot/calculatorpage.png">
+</P>
+<p align="center">
+  <img width="500" src="screenshot/quotepage.png">
 </P>
 
 ## 💻 Getting Started <a name="getting-started"></a>

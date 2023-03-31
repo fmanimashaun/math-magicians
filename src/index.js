@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/math-magicians">
       <App />
     </Router>
   </React.StrictMode>,

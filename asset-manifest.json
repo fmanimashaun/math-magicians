@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.3065dcd7.css",
-    "main.js": "/static/js/main.cf0bf821.js",
-    "static/media/Robaga_Rounded_Regular.otf": "/static/media/Robaga_Rounded_Regular.2613e95fa67ea4b5f5f6.otf",
-    "index.html": "/index.html",
-    "main.3065dcd7.css.map": "/static/css/main.3065dcd7.css.map",
-    "main.cf0bf821.js.map": "/static/js/main.cf0bf821.js.map"
+    "main.css": "/math-magicians/static/css/main.c26879ed.css",
+    "main.js": "/math-magicians/static/js/main.e81589e4.js",
+    "static/media/Robaga_Rounded_Regular.otf": "/math-magicians/static/media/Robaga_Rounded_Regular.2613e95fa67ea4b5f5f6.otf",
+    "index.html": "/math-magicians/index.html",
+    "main.c26879ed.css.map": "/math-magicians/static/css/main.c26879ed.css.map",
+    "main.e81589e4.js.map": "/math-magicians/static/js/main.e81589e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3065dcd7.css",
-    "static/js/main.cf0bf821.js"
+    "static/css/main.c26879ed.css",
+    "static/js/main.e81589e4.js"
   ]
 }

@@ -38,7 +38,7 @@ body {
   }
 
   & > main {
-    margin-block: auto;
+    margin-block: 0 auto;
   }
 
   & > :first-child:not(main) {
